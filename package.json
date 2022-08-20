@@ -9,10 +9,16 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@eliav2/react-native-collapsible-view": "*",
+    "@expo/vector-icons": "^13.0.0",
     "expo": "~46.0.7",
+    "expo-constants": "~13.2.3",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.4"
+    "react-native": "0.69.4",
+    "react-native-paper": "4.9.2",
+    "react-native-snap-carousel": "^4.0.0-beta.6",
+    "react-native-svg": "12.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

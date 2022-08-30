@@ -3,12 +3,10 @@ import { StyleSheet, View, Text, ScrollView, Button } from "react-native";
 import CollapsibleView from "@eliav2/react-native-collapsible-view";
 import Carousel from "./CarouselSample/Carousel";
 
-export default () => {
+const CollapsibleComp = () => {
   const [controlledValue, setControlledValue] = useState(false);
-
   return (
-    <Carousel />
-    /*  <View style={{ height: "100%", justifyContent: "center" }}>
+    <View style={{ height: "100%", justifyContent: "center" }}>
       <ScrollView contentContainerStyle={{ height: "100%" }}>
         <View style={styles.container}>
           <CollapsibleView title="Basic Usage">
@@ -129,7 +127,14 @@ export default () => {
           </CollapsibleView>
         </View>
       </ScrollView>
-    </View> */
+    </View>
+  );
+};
+
+export default () => {
+  return (
+    //<CollapsibleComp />
+    <Carousel />
   );
 };
 
